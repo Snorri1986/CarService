@@ -1,7 +1,6 @@
 /**
  * @author: Denys Shabelnyk
  * @version: 0.1.2
- *
  */
 
 package hello;
