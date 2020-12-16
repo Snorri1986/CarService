@@ -1,6 +1,6 @@
 # CarService
 Spring Boot web application for saving and analyze car service requests for own car<br />
-<b>Stack:</b> Java Spring Boot, HTML, CSS
+<b>Stack:</b> Java Spring Boot, HTML, CSS, JavaScript
 
 <b>List of updates:</b><br />
 <b>v0.1</b> - First init after environment configuration<br />
