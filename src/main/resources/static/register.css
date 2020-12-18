@@ -1,0 +1,9 @@
+/* Register page css file Version: 0.2.1 */
+body {
+  	background-image: url("images/garage.jpg");
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+}
+/**/
