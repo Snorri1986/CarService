@@ -34,10 +34,11 @@ body {
 }
 /* ... */
 
-/*in test 16.12.2020 */
+/* footer style */
 .version {
 text-align: right;
 color: red;
+padding-top:100%;
 }
 /* ... */
 
