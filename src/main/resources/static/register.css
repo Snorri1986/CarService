@@ -6,4 +6,34 @@ body {
     background-attachment: fixed;
     background-size:  cover;
 }
+
+/* in test 21.12.2020 */
+/* TODO: read about all this parameters */
+label, input {
+    display: inline-block;
+    vertical-align: baseline;
+    width: 125px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+form, input {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+label {
+    color: #2D2D2D;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* ... */
 /**/
