@@ -11,18 +11,31 @@
           crossorigin="anonymous">
 </head>
 <body>
-<!-- in test 19.12.2020 -->
+<!-- in test 22.12.2020 -->
+<div class="container" id="registerForm">
 <form method="post" action="#">
         <label for="login">Login:</label><input type="text" id="login">
         <label for="pwd">Password:</label><input type="password" id="pwd">
         <label for="confirmedPwd">Confirmed:</label><input type="password" id="confirmedPwd">
         <label for="eml">E-mail:</label><input type="text" id="eml">
-        <label for="vehicle">Vehicle:</label><input type="text" id="vehicle">
+        <label for="vehicle">Vehicle:</label>
+        <!-- ready to commit 22.12.2020 -->
+        <select name="vehicle" id="vehicle">
+            <option value="Car">Car</option>
+            <option value="Motorcycle">Motorcycle</option>
+            <option value="Boat">Boat</option>
+            <option value="Bus">Bus</option>
+            <option value="Scooter">Scooter</option>
+            <option value="Private Plane">Private Plane</option>
+            <option value="Other">Other</option>
+       </select>
+        <!-- -->
         <label for="vphoto">Vehicle photo</label><input type="text" id="vphoto">
         <button type="submit" class="btn btn-warning" id="btnGo">Go</button>
         <button type="submit" class="btn btn-warning" id="btnClear">Clear</button>
         <button type="submit" class="btn btn-warning" id="btnCancel">Cancel</button>
 </form>
+</div>
 <!-- -->
 </body>
 </html>
