@@ -1,7 +1,7 @@
 <!-- Register page -->
 <!--version: 0.2.1 -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Register</title>
@@ -9,9 +9,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
           rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
           crossorigin="anonymous">
+    <script src="http://cdn.jsdelivr.net/webjars/jquery/3.2.0/jquery.min.js"
+            th:src="@{/webjars/jquery/3.2.0/jquery.min.js}"></script>
+    <script src="uploadPhoto.js"></script>
 </head>
 <body>
-<!-- in test 22.12.2020 -->
 <div class="container" id="registerForm">
 <form method="post" action="#">
         <label for="login">Login:</label><input type="text" id="login">
@@ -19,7 +21,6 @@
         <label for="confirmedPwd">Confirmed:</label><input type="password" id="confirmedPwd">
         <label for="eml">E-mail:</label><input type="text" id="eml">
         <label for="vehicle">Vehicle:</label>
-        <!-- ready to commit 22.12.2020 -->
         <select name="vehicle" id="vehicle">
             <option value="Car">Car</option>
             <option value="Motorcycle">Motorcycle</option>
@@ -29,14 +30,14 @@
             <option value="Private Plane">Private Plane</option>
             <option value="Other">Other</option>
        </select>
-        <!-- -->
-        <label for="vphoto">Vehicle photo</label><input type="text" id="vphoto">
+        <label for="vphoto">Vehicle photo</label>
+        <input type="file" onchange="readURL(this);" id="vphoto">
+        <img id="photo" src="#" alt="your image" />
         <button type="submit" class="btn btn-warning" id="btnGo">Go</button>
         <button type="submit" class="btn btn-warning" id="btnClear">Clear</button>
         <button type="submit" class="btn btn-warning" id="btnCancel">Cancel</button>
 </form>
 </div>
-<!-- -->
 </body>
 </html>
 <!-- -->

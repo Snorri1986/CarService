@@ -7,7 +7,6 @@ body {
     background-size:  cover;
 }
 
-/* ready to commit 22.12.2020 */
 label, input {
     display: inline-block;
     vertical-align: baseline;
@@ -41,14 +40,12 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 }
-/* ... */
-/* ready to commit 22.12.2020 */
+
 #registerForm label {
 color: yellow;
 }
-/**/
-/* ready to commit 22.12.2020 */
+
 #registerForm button {
 color: blue;
 }
-/**/
+/* ... */
