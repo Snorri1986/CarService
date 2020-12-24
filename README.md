@@ -10,5 +10,5 @@ Spring Boot web application for saving and analyze car service requests for own 
 <b>v0.1.4</b> - Added application title, application moto and action buttons: Login and Register<br />
 <b>v0.1.5</b> - Added version number on footer<br />
 <b>v0.2</b> - Redirect to login and register page<br />
-<b>v0.2.1</b> - Added registration fields with drop-down list and ability to upload  photo <br />
+<b>v0.2.1</b> - Added registration fields with drop-down list and ability to upload vehicle photo <br />
 
