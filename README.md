@@ -13,7 +13,7 @@ Spring Boot web application for saving and analyze car service requests for own 
 <b>v0.2.1</b> - Added registration fields with drop-down list and ability to upload vehicle photo <br />
 <b>v0.2.1</b> - Web-application name has changed. New name is Smart Vehicle Service <br />
 <b>v0.2.2</b> - Added handler for "Cancel" button.<br />  
-                Changed type of "Cancel" and "Clear" button.<br />  
-                Renamed "Go" button to "Create new user" button.<br /> 
-                Changed size of uploaded images.<br />
+Changed type of "Cancel" and "Clear" button.<br />  
+Renamed "Go" button to "Create new user" button.<br /> 
+Changed size of uploaded images.<br />
 
