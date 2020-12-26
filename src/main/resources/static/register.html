@@ -1,5 +1,5 @@
 <!-- Register page -->
-<!--version: 0.2.1 -->
+<!--version: 0.2.2 -->
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
@@ -30,12 +30,12 @@
             <option value="Private Plane">Private Plane</option>
             <option value="Other">Other</option>
        </select>
+            <input type="button" onclick="#" value="Clear">
+            <input type="button" onclick="window.location.href = './index.html';" value="Cancel">
         <label for="vphoto">Vehicle photo</label>
         <input type="file" onchange="readURL(this);" id="vphoto">
         <img id="photo" src="#" alt="your image" />
-        <button type="submit" class="btn btn-warning" id="btnGo">Go</button>
-        <button type="submit" class="btn btn-warning" id="btnClear">Clear</button>
-        <button type="submit" class="btn btn-warning" id="btnCancel">Cancel</button>
+        <button type="submit" class="btn btn-warning btn-block" id="btnGo">Create new user</button>
 </form>
 </div>
 </body>

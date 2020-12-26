@@ -1,15 +1,17 @@
-/**
- * @author: Denys Shabelnyk
- * @version: 0.1.2
- */
-
 package hello;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+
+/**
+ * The controller class
+ * @author: Denys Shabelnyk
+ * @since 0.1.2
+ */
 @Controller
 public class CarServiceController {
 
@@ -19,6 +21,5 @@ public class CarServiceController {
 
         model.addAttribute("name",name);
         return "greeting";
-
     }
 }

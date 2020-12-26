@@ -1,6 +1,6 @@
 /* JavaScript service file for upload vehicle photo
 from local PC on register.html */
-/* version 0.2.1 */
+/* version 0.2.2 */
 
 /* function uploads photo from local PC */
 function readURL(input) {
@@ -9,8 +9,8 @@ function readURL(input) {
     reader.onload = function (e) {
       $('#photo')
         .attr('src', e.target.result)
-        .width(150)
-        .height(150);
+        .width(100)
+        .height(100);
     };
     reader.readAsDataURL(input.files[0]);
   }

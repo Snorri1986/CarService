@@ -15,7 +15,7 @@ public class CarServiceApplication extends SpringBootServletInitializer {
 
     /**
      * @author: Denys Shabelnyk
-     * @version: 0.1.2
+     * @since 0.1.2
      */
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
