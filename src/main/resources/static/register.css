@@ -1,4 +1,6 @@
-/* Register page css file Version: 0.2.1 */
+/* Register page css file Version: 0.2.3 */
+
+/* definition of background image */
 body {
   	background-image: url("images/garage.jpg");
     background-position: center center;
@@ -6,7 +8,9 @@ body {
     background-attachment: fixed;
     background-size:  cover;
 }
+/**/
 
+/* labels and input on the center of screen */
 label, input {
     display: inline-block;
     vertical-align: baseline;
@@ -14,38 +18,72 @@ label, input {
     margin-left: auto;
     margin-right: auto;
  }
+ /**/
 
+/* definition of block for popular web-browsers */
 form, input {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
+/**/
 
+/* additional styles for labels*/
 label {
     color: #2D2D2D;
     font-size: 15px;
     margin-left: auto;
     margin-right: auto;
 }
+/**/
 
+/* location and width for form */
 form {
     width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
+/**/
 
+/* additional location and width for form */
 #registerForm {
 position: fixed;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 }
+/**/
 
+/* slyle of labels */
 #registerForm label {
 color: yellow;
 }
+/**/
 
+/* slyle of buttons */
 #registerForm button {
 color: blue;
 }
+/**/
+
+
+/* style for page title */
+.mainHeader {
+     color: blue;
+     font-weight: bold;
+     text-align: center;
+     font-size: 100px;
+     padding-top: 50px;
+}
+/* ... */
+
+/* style for button description */
+.btnDescripton {
+     color: yellow;
+     font-weight: bold;
+     text-align: center;
+     font-size: 25px;
+}
+/* ... */
+
 /* ... */
