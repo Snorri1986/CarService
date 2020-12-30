@@ -19,4 +19,5 @@ Changed size of uploaded images.<br />
 <b>v0.2.3</b> - Added title on register page.<br /> 
 Added descrtion of button on register page.<br /> 
 Created handler of button "Clear" on register page.<br />
+<b>v0.2.4</b> - Added security policy to create new user and fill registration form fields<br /> 
 
