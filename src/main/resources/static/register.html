@@ -1,5 +1,5 @@
 <!-- Register page -->
-<!--version: 0.2.3 -->
+<!--version: 0.2.4 -->
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
@@ -31,10 +31,10 @@
 
 <div class="container" id="registerForm">
 <form method="post" action="#">
-        <label for="login">Login:</label><input type="text" id="login">
-        <label for="pwd">Password:</label><input type="password" id="pwd">
-        <label for="confirmedPwd">Confirmed:</label><input type="password" id="confirmedPwd">
-        <label for="eml">E-mail:</label><input type="text" id="eml">
+        <label for="login">Login:</label><input type="text" id="login" required>
+        <label for="pwd">Password:</label><input type="password" pattern="[A-Za-z\W+]{8,}" id="pwd" required>
+        <label for="confirmedPwd">Confirmed:</label><input type="password" id="confirmedPwd" required>
+        <label for="eml">E-mail:</label><input type="text" id="eml" required>
         <label for="vehicle">Vehicle:</label>
         <select name="vehicle" id="vehicle">
             <option value="Car">Car</option>
@@ -48,7 +48,7 @@
             <input type="button" value="Clear" onClick="eraseAllData()">
             <input type="button" onclick="window.location.href = './index.html';" value="Cancel">
         <label for="vphoto">Vehicle photo</label>
-        <input type="file" onchange="readURL(this);" id="vphoto">
+        <input type="file" onchange="readURL(this);" id="vphoto" required>
         <img id="photo" src="#" alt="your image" />
         <button type="submit" class="btn btn-warning btn-block" id="btnGo">Create new user</button>
 </form>
