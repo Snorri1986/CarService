@@ -16,4 +16,7 @@ Spring Boot web application for saving and analyze car service requests for own 
 Changed type of "Cancel" and "Clear" button.  
 Renamed "Go" button to "Create new user" button.
 Changed size of uploaded images.<br />
+<b>v0.2.3</b> - Added title on register page. 
+Added descrtion of button on register page. 
+Created handler of button "Clear" on register page.<br />
 
