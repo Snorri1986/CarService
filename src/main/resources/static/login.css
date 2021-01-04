@@ -1,0 +1,71 @@
+/* Login page css file Version: 0.3.1 */
+
+/* definition of background image */
+/* ready to commit 04.01.2021 */
+body {
+  	background-image: url("images/gates.jpg");
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+}
+/**/
+
+/* ready to commit 04.01.2021 */
+
+/* labels and input on the center of screen */
+label, input {
+    display: inline-block;
+    vertical-align: baseline;
+    width: 125px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ /**/
+
+/* definition of block for popular web-browsers */
+form, input {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+/**/
+
+/* additional styles for labels*/
+label {
+    color: #2D2D2D;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/**/
+
+/* location and width for form */
+form {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/**/
+
+/* additional location and width for form */
+#registerForm {
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+/**/
+
+/* slyle of labels */
+#registerForm label {
+color: yellow;
+}
+/**/
+
+/* slyle of buttons */
+#registerForm button {
+color: blue;
+}
+/**/
+/**/
