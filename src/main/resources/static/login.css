@@ -1,7 +1,6 @@
 /* Login page css file Version: 0.3.1 */
 
 /* definition of background image */
-/* ready to commit 04.01.2021 */
 body {
   	background-image: url("images/gates.jpg");
     background-position: center center;
@@ -10,8 +9,6 @@ body {
     background-size:  cover;
 }
 /**/
-
-/* ready to commit 04.01.2021 */
 
 /* labels and input on the center of screen */
 label, input {
