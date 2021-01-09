@@ -16,28 +16,37 @@
     </parent>
 
     <dependencies>
+        <!-- main dependency for all Spring Boot App -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <!-- -->
 
+        <!-- Thymeleaf -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
+        <!-- -->
 
+        <!-- Spring Boot developer tools -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <optional>true</optional>
         </dependency>
+        <!-- -->
 
-        <!-- ready to commit 24.12.2020 -->
+        <!-- WebJars plug-in -->
         <dependency>
             <groupId>org.webjars</groupId>
             <artifactId>jquery</artifactId>
             <version>3.2.0</version>
         </dependency>
+        <!-- -->
+
+        <!-- Jquery-ui plug-in -->
         <dependency>
             <groupId>org.webjars</groupId>
             <artifactId>jquery-ui</artifactId>
@@ -53,10 +62,25 @@
 
     <build>
         <plugins>
+            <!-- Maven Plug-In -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+            <!-- -->
+
+            <!-- App-Engine Plug-in -->
+            <plugin>
+                <groupId>com.google.cloud.tools</groupId>
+                <artifactId>appengine-maven-plugin</artifactId>
+                <version>2.2.0</version>
+                <configuration>
+                    <version>1</version>
+                    <projectId>GCLOUD_CONFIG</projectId>
+                </configuration>
+            </plugin>
+            <!-- -->
+
         </plugins>
     </build>
 
