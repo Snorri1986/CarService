@@ -1,0 +1,1 @@
+web: java Versions/SVS-7.0.war
