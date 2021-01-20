@@ -1,1 +1,1 @@
-web: java Versions/SVS-7.0.war
+web: java -jar Versions/SVS-7.0.jar
