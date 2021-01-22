@@ -1,1 +1,1 @@
-web: java -jar Versions/SVS-7.0.jar
+web: Java $Java_OPTS -jar target/dependency/webapp-runner.jar –port $PORT target/*.war
