@@ -54,6 +54,16 @@
         </dependency>
         <!-- -->
 
+        <!-- in test 23.01.2021 -->
+        <!-- Webapp Runner -->
+        <dependency>
+            <groupId>com.github.jsimone</groupId>
+            <artifactId>webapp-runner</artifactId>
+            <version>9.0.27.1</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- -->
+
     </dependencies>
 
     <properties>
@@ -68,9 +78,6 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
             <!-- -->
-
-
-
         </plugins>
     </build>
 
