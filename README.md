@@ -23,4 +23,5 @@ Created handler of button "Clear" on register page.<br />
 <b>v0.3.0</b> - Added checking email on register page. Register page full released. <br />
 <b>v0.3.1</b> - Login page have created <br />
 <b>v0.3.1.1</b> - For all static web-pages have added methods in controller <br />
+<b>v0.3.1.1</b> - Deployed on Heroku. Link: https://smart-vehicle-service.herokuapp.com/ <br />
 
