@@ -54,7 +54,6 @@
         </dependency>
         <!-- -->
 
-        <!-- in test 23.01.2021 -->
         <!-- Webapp Runner -->
         <dependency>
             <groupId>com.github.jsimone</groupId>
