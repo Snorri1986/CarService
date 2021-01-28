@@ -24,4 +24,5 @@ Created handler of button "Clear" on register page.<br />
 <b>v0.3.1</b> - Login page have created <br />
 <b>v0.3.1.1</b> - For all static web-pages have added methods in controller <br />
 <b>v0.3.1.1</b> - Deployed on Heroku. Link: https://smart-vehicle-service.herokuapp.com/ <br />
+<b>v0.3.1.2</b> - Fixed error with background image on register.html via heroku site.<br />
 
