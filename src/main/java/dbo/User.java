@@ -1,12 +1,21 @@
 package dbo;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
 /**
  * Description: Class of user entity for store data into database
  * @autor Denys Shabelnyk
  * @since 0.3.1.4
  */
+@Entity
+@Table(name = "testtable")
 public class User {
 
+    public User() { }
+
+    @Id
     private int id;
     private String name;
 

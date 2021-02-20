@@ -21,4 +21,16 @@ public class CarServiceController {
         model.addAttribute("name",name);
         return "greeting";
     }
+
+    /**
+     * Method for bind html page index.html
+     * with Java method
+     * @since 0.3.1.4
+     * @return String bind <url>:<port>/
+     */
+    @GetMapping("/")
+    public String start() {
+        return "index";
+    }
+
 }
