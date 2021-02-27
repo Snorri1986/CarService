@@ -1,8 +1,9 @@
-package dbo;
+package com.svs.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import jdk.nashorn.internal.objects.annotations.Getter;
+import jdk.nashorn.internal.objects.annotations.Setter;
+
+import javax.persistence.*;
 
 /**
  * Description: Class of user entity for store data into database
@@ -16,7 +17,9 @@ public class User {
     public User() { }
 
     @Id
-    private int id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
+    @Column
     private String name;
 
     public User(int id,String name) {
@@ -24,18 +27,22 @@ public class User {
         this.name = name;
     }
 
+    @Setter
     public void setId(int id) {
         this.id = id;
     }
 
+    @Getter
     public int getId() {
         return this.id;
     }
 
+    @Setter
     public void setName(String name) {
         this.name = name;
     }
 
+    @Getter
     public String getName() {
         return this.name;
     }
