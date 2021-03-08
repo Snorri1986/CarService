@@ -43,7 +43,9 @@ public class CarServiceApplication extends SpringBootServletInitializer implemen
     public void run(String...args) throws Exception {
         List<User> users = userRepo.findAll();
         users.forEach(System.out :: println);
-        System.exit(0);
+        // test code 08.03.2021
+        //System.exit(0);
+        // ... //
     }
     // ... //
 }

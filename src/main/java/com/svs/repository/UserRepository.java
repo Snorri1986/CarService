@@ -7,7 +7,7 @@ import java.util.List;
 
 
 /**
- * Description: Interface for fetch user's name
+ * Description: Interface for fetch user's name(DAO)
  * @autor Denys Shabelnyk
  * @since 0.3.1.4
  */
